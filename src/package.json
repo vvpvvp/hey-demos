@@ -1,0 +1,15 @@
+{
+  "name": "HeyUI demos",
+  "version": "1.0.2",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://codesandbox.io/s/39v219wkp",
+  "main": "index.js",
+  "dependencies": {
+    "hey-utils": "0.1.0",
+    "heyui": "0.16.4",
+    "manba": "1.1.2",
+    "vue": "2.5.2",
+    "vue-router": "3.0.1"
+  }
+}
