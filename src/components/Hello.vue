@@ -1,5 +1,5 @@
 <template>
-	<div class="hello">
+	<div class="hello-vue">
 		<Button @click="show=true">开始第一个demo</Button>
 		<Modal v-model="show">
 			<div>欢迎开始heyui之旅~</div>
@@ -21,5 +21,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="less">
-
+.hello-vue{
+	padding: 50px;
+}
 </style>
