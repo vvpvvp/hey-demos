@@ -4,7 +4,7 @@ import Vue from "vue";
 import App from "./App";
 import router from "./router";
 import HeyUI from "heyui";
-import initDict from 'js/config/dict-config';
+import initDict from './js/config/dict-config';
 
 initDict(HeyUI);
 Vue.use(HeyUI);
