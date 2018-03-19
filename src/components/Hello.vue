@@ -11,6 +11,13 @@
 			<p><router-link :to="{name:'datasDemo2'}">demo2: 数据驱动-key多选</router-link></p>
 			<p><router-link :to="{name:'datasDemo3'}">demo3: 数据驱动-object单选</router-link></p>
 			<p><router-link :to="{name:'datasDemo4'}">demo4: 数据驱动-object多选</router-link></p>
+			<h2>使用字典定义数据来源</h2>
+			<p>dict的定义请参考 src/js/config/dict-config.js文件</p>
+			<p><router-link :to="{name:'dictDemo1'}">demo1: 数据字典驱动-key单选</router-link></p>
+			<p><router-link :to="{name:'dictDemo2'}">demo2: 数据字典驱动-key多选</router-link></p>
+			<p><router-link :to="{name:'dictDemo3'}">demo3: 数据字典驱动-object单选</router-link></p>
+			<p><router-link :to="{name:'dictDemo4'}">demo4: 数据字典驱动-object多选</router-link></p>
+			<p><router-link :to="{name:'dictDemo5'}">demo5: 很多组件调用</router-link></p>
 		</div>
 	</div>
 </template>

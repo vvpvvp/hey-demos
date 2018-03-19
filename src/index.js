@@ -4,6 +4,9 @@ import Vue from "vue";
 import App from "./App";
 import router from "./router";
 import HeyUI from "heyui";
+import initDict from 'js/config/dict-config';
+
+initDict(HeyUI);
 Vue.use(HeyUI);
 
 require("heyui/build/index.css");
@@ -12,6 +15,5 @@ Vue.config.productionTip = false;
 new Vue({
   el: "#app",
   router,
-  template: "<App/>",
-  components: { App }
+  render: h => h(App)
 });
