@@ -1,5 +1,6 @@
 <template>
-  <div v-padding="40">
+  <div v-padding="40" v-width="600">
+    <p>文件目录： src/components/datas/demo1.vue</p>
     <p>值：{{value}}</p>
     <p><Radio v-model="value" :datas="options"></Radio></p>
     <p><Select v-model="value" :datas="options" placeholder="请选择"></Select></p>

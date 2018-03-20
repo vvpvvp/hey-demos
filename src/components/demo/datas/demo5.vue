@@ -1,5 +1,6 @@
 <template>
   <div v-padding="40">
+    <p>文件目录： src/components/datas/demo5.vue</p>
     <div v-width="200">
       <Menu :datas="options2"></Menu>
     </div>
