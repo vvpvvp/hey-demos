@@ -5,6 +5,7 @@ import datasDemo1 from "../components/demo/datas/demo1";
 import datasDemo2 from "../components/demo/datas/demo2";
 import datasDemo3 from "../components/demo/datas/demo3";
 import datasDemo4 from "../components/demo/datas/demo4";
+import datasDemo5 from "../components/demo/datas/demo5";
 import dictDemo1 from "../components/demo/dict/demo1";
 import dictDemo2 from "../components/demo/dict/demo2";
 import dictDemo3 from "../components/demo/dict/demo3";
@@ -40,6 +41,11 @@ export default new Router({
       path: "/datas/demo4",
       name: "datasDemo4",
       component: datasDemo4
+    },
+    {
+      path: "/datas/demo5",
+      name: "datasDemo5",
+      component: datasDemo5
     },
     {
       path: "/dict/demo1",
