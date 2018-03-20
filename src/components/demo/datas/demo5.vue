@@ -75,6 +75,8 @@ export default {
         }
       ],
       value1: "a",
+      value2: null,
+      value3: null,
       step: 0
     };
   }
