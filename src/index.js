@@ -10,7 +10,7 @@ initDict(HeyUI);
 Vue.use(HeyUI);
 
 require("heyui/build/index.css");
-Vue.config.productionTip = false;
+// Vue.config.productionTip = false;
 /* eslint-disable no-new */
 new Vue({
   el: "#app",
