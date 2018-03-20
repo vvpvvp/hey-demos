@@ -1,6 +1,6 @@
 <template>
   <div v-padding="40">
-    <p>文件目录： src/components/datas/demo5.vue</p>
+    <p>文件目录： src/components/demo/datas/demo5.vue</p>
     <div v-width="200">
       <Menu :datas="options2"></Menu>
     </div>
@@ -35,28 +35,7 @@
 export default {
   data() {
     return {
-      options: [
-        {
-          key: "a",
-          title: "黄金糕"
-        },
-        {
-          key: "b",
-          title: "双皮奶"
-        },
-        {
-          key: "c",
-          title: "蚵仔煎"
-        },
-        {
-          key: "d",
-          title: "龙须面"
-        },
-        {
-          key: "e",
-          title: "北京烤鸭"
-        }
-      ],
+      options: [ { key: "a", title: "黄金糕" }, { key: "b", title: "双皮奶" }, { key: "c", title: "蚵仔煎" }, { key: "d", title: "龙须面" }, { key: "e", title: "北京烤鸭" } ],
       options2: [
         {
           key: "a",

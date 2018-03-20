@@ -1,6 +1,6 @@
 <template>
   <div v-padding="40" v-width="550">
-    <p>文件目录： src/components/dict/demo5.vue</p>
+    <p>文件目录： src/components/demo/dict/demo5.vue</p>
     <h3>代码的调用非常的简洁，同时字典的管理也集中化。</h3>
     <p>Radio：{{value1}} | {{value1 | dictMapping('simple')}}</p>
     <p><Radio v-model="value1" dict="simple" placeholder="请选择"></Radio></p>
