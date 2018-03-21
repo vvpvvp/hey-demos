@@ -6,7 +6,6 @@
     <p><AutoComplete :datas="options" multiple v-model="value" type="object"></AutoComplete></p>
   </div>
 </template>
-
 <script>
 export default {
   data() {

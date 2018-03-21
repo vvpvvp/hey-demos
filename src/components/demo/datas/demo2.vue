@@ -6,7 +6,6 @@
     <p><Select v-model="value" multiple :datas="options" placeholder="请选择"></Select></p>
   </div>
 </template>
-
 <script>
 export default {
   data() {
