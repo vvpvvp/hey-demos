@@ -3,7 +3,6 @@
 		
 	</div>
 </template>
-
 <script>
 export default {
   name: "hello",
@@ -15,7 +14,6 @@ export default {
   }
 };
 </script>
-
 <style>
 .hello-vue {
   padding: 50px;
