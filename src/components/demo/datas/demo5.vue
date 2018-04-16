@@ -17,6 +17,7 @@
       <Tree multiple :option="{datas: options2}"></Tree>
     </div>
     <hr>
+    
     <div>
       <p>
         <ButtonGroup size="s">
