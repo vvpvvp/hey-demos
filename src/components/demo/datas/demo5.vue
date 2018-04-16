@@ -1,5 +1,35 @@
 <template>
-  <div></div>
+  <div v-padding="40">
+    <p>文件目录： src/components/demo/datas/demo5.vue</p>
+    <div v-width="200">
+      <Menu :datas="options2"></Menu>
+    </div>
+    <hr>
+    <div v-width="300">
+      <TreePicker v-model="value3" :option="{datas: options2}"></TreePicker>
+    </div>
+    <hr>
+    <div v-width="300">
+      <Tree :option="{datas: options2}"></Tree>
+    </div>
+    <hr>
+    <div v-width="300">
+      <Tree multiple :option="{datas: options2}"></Tree>
+    </div>
+    <hr>
+    
+    <div>
+      <p>
+        <ButtonGroup size="s">
+          <Button icon="h-icon-plus" @click="step>=4||step++"></Button>
+          <Button icon="h-icon-minus" @click="step<=0||step--"></Button>
+        </ButtonGroup>
+      </p>
+      <div v-width="500">
+        <Steps :datas="options" :step="step"></Steps>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
