@@ -1,3 +1,8 @@
+<style>
+.hello-vue {
+  padding: 50px;
+}
+</style>
 <template>
 	<div class="hello-vue">
 		<Button @click="show=true">开始第一个demo</Button>
@@ -33,8 +38,3 @@ export default {
   }
 };
 </script>
-<style>
-.hello-vue {
-  padding: 50px;
-}
-</style>
