@@ -9,9 +9,7 @@ import initDict from './js/config/dict-config';
 initDict(HeyUI);
 Vue.use(HeyUI);
 
-require("heyui/build/index.css");
-// Vue.config.productionTip = false;
-/* eslint-disable no-new */
+require("heyui/themes/index.less");
 new Vue({
   el: "#app",
   router,
