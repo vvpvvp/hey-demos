@@ -10,7 +10,7 @@ initDict(HeyUI);
 Vue.use(HeyUI);
 
 Vue.config.productionTip = false;
-require("heyui/build/index.css");
+require("heyui/themes/index.css");
 
 new Vue({
   el: "#app",
