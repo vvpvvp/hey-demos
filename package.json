@@ -3,7 +3,7 @@
   "description": "",
   "version": "0.0.0",
   "dependencies": {
-    "heyui": "^1.1.2",
+    "heyui": "^1.15.0",
     "vue": "2.5.2",
     "vue-router": "3.0.1"
   },
